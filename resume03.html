@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Namuunzaya Bold</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .job, .education-item {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        .header-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .profile-picture-container {
+            position: relative;
+            width: 150px;
+            height: 150px;
+        }
+        .profile-picture {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #2c3e50;
+        }
+        .flower-decoration {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #e84393;
+        }
+        .flower-1 {
+            top: -10px;
+            right: -5px;
+            transform: rotate(15deg);
+        }
+        .flower-2 {
+            bottom: -5px;
+            left: -10px;
+            transform: rotate(-10deg);
+        }
+        .contact-info {
+            flex: 1;
+            margin-left: 20px;
+        }
+        @media (max-width: 600px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .contact-info {
+                margin-left: 0;
+                margin-top: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header-container">
+        <div class="profile-picture-container">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
+                 alt="Profile Picture of Namuunzaya Bold" class="profile-picture">
+            <img src="https://images.unsplash.com/photo-1520763185298-1b434c919102?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
+                 alt="Flower decoration" class="flower-decoration flower-1">
+            <img src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
+                 alt="Flower decoration" class="flower-decoration flower-2">
+        </div>
+        <div class="contact-info">
+            <h1>Namuunzaya Bold</h1>
+            <p>Email: namuun.0527@gmail.com | Phone: +976-99455474 | LinkedIn: linkedin.com/in/Namuun Bold</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Summary</h2>
+        <p>Motivated computer science student with experience in programming, web development, and data analysis. Seeking opportunities to apply technical skills in real-world projects.</p>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <strong>Asia University, Taiwan</strong> — B.Sc. in Computer Science and Information Engineering<br>
+            <em>Expected Graduation:</em> 2027
+        </div>
+        <div class="education-item">
+            <strong>High School Name, Mongolia</strong> — High School Diploma<br>
+            <em>Graduated:</em> 2022
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Experience</h2>
+        <div class="job">
+            <strong>Intern - ABC Tech Company</strong> | Summer 2024<br>
+            <ul>
+                <li>Developed a web application using HTML, CSS, and JavaScript.</li>
+                <li>Assisted in data analysis and visualization using Python.</li>
+                <li>Collaborated with a team to improve software features.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <strong>Freelance Web Developer</strong> | 2023-2024<br>
+            <ul>
+                <li>Built responsive websites for small businesses.</li>
+                <li>Optimized website performance and accessibility.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Python, Java, C#</li>
+            <li>Web Development: HTML, CSS, JavaScript</li>
+            <li>Data Analysis: Excel, Pandas, SQL</li>
+            <li>Version Control: Git & GitHub</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <ul>
+            <li>Tic-Tac-Toe Game (C#) – Implemented using data structures and algorithms.</li>
+            <li>Personal Portfolio Website – Showcases projects and skills.</li>
+        </ul>
+    </div>
+</body>
+</html>
